@@ -1,5 +1,8 @@
 # nuxt-app-vercel
 
+## Build Error
+do this to fix build error
+$ export NODE_OPTIONS=--openssl-legacy-provider
 ## Build Setup
 
 ```bash

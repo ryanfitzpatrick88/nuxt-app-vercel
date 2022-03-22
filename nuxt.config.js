@@ -10,7 +10,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: '%s - nuxt-app-vercel',
-    title: 'nuxt-app-vercel',
+    title: 'Nuxt.js App Vercel',
     htmlAttrs: {
       lang: 'en',
     },
@@ -38,10 +38,13 @@ export default {
     '@nuxt/typescript-build',
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
+    '@nuxtjs/pwa'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
+  modules: [
+
+  ],
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
@@ -63,5 +66,18 @@ export default {
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {}
+  build: {},
+
+  pwa: {
+    meta: {
+      title: 'Nuxt.js App Vercel',
+      author: 'Ryan Fitzpatrick'
+    },
+    manifest: {
+      name: 'Nuxt.js App Vercel',
+      short_name: 'Nuxt',
+      description: 'nuxt js framework app deployed to vercel',
+      lang: 'en'
+    }
+  }
 }

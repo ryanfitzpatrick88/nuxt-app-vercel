@@ -81,6 +81,11 @@ export default {
           title: 'Inspire',
           to: '/inspire',
         },
+        {
+          icon: 'mdi-api',
+          title: 'API',
+          to: '/api-test',
+        },
       ],
       miniVariant: false,
       right: true,
