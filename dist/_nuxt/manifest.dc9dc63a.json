@@ -1,0 +1,10 @@
+{
+  "name": "Nuxt.js App Vercel",
+  "short_name": "Nuxt",
+  "description": "nuxt js framework app deployed to vercel",
+  "icons": [],
+  "start_url": "/?standalone=true",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "lang": "en"
+}
